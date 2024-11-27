@@ -1,7 +1,7 @@
 .navbar {
   /* background-color: #1f5156; */
-  background-color: #1f5156;
-  height: 80px;
+  background-color: black;
+  height: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,6 +9,7 @@
   position: sticky;
   top: 0;
   z-index: 20;
+  border-bottom: 1px solid #c8d8e4;
 }
 
 .nav-container {
@@ -29,6 +30,7 @@
   text-decoration: none;
   font-size: 2rem;
   flex-grow: 1;
+  margin-bottom: 21px;
 }
 .nav-logo:hover{
 color: white !important;
@@ -121,14 +123,14 @@ color: white !important;
   }
 
   .nav-menu.active {
-    background: #1f5156;
+    background: black;
     left: 0px;
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 1;
   }
   .nav-item .active {
-    color: #2b6777;
+    color: white;
     border: none;
   }
   .nav-item2 .active {
@@ -159,25 +161,13 @@ color: white !important;
 
 
 
-.login-btn{
-  border-radius: 20px;
-
-background-color: green;
-}
-
-.signup-btn{
-  border-radius: 25px;
-
-  background-color: rgb(224, 193, 53);
-  }
-
   .logout-btn{
-    border-radius: 20px;
+  
     background-color: rgb(160, 46, 46);
     }
 
     .bookings-btn{
-    border-radius: 20px;
+  
 color:white !important;
       background-color: rgb(49, 129, 35);
       }

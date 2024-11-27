@@ -2,7 +2,7 @@ import styled from 'styled-components';
    
 export const Box = styled.div`
   padding: 80px 60px;
-  background: #c8d8e4;
+  background: black\;
 //   position: absolute;
 //   bottom: 0;
   width: 100%;
@@ -42,23 +42,23 @@ export const Row = styled.div`
 `;
    
 export const FooterLink = styled.a`
-  // color: #fff;
-  color:#000;
+  // color: white;
+  color:white;
 
   margin-bottom: 20px;
   font-size: 18px;
   text-decoration: none;
    
   &:hover {
-      color: green;
+      color: black;
       transition: 200ms ease-in;
   }
 `;
    
 export const Heading = styled.p`
   font-size: 24px;
-  // color: #fff;
-  color:#000;
+  // color: white;
+  color:white;
   
   margin-bottom: 40px;
   font-weight: bold;

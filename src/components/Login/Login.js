@@ -74,10 +74,10 @@ const Login = () => {
                 <center>
 
                     <div>
-                        <TextField type="email" id="standard-basic" label="Email" variant="standard" className="login-form-input-fields " onChange={(e) => setEmail(e.target.value)} />
+                      <TextField type="email" id="standard-basic" label="Email" variant="standard" className="login-form-input-fields "  onChange={(e) => setEmail(e.target.value)} />
                     </div>
                     <div>
-                        <TextField type="password" id="standard-basic" label="Password" variant="standard" className="login-form-input-fields " onChange={(e) => setPassword(e.target.value)} />
+                      <TextField type="password" id="standard-basic" label="Password" variant="standard" className="login-form-input-fields " onChange={(e) => setPassword(e.target.value)} />
                     </div>
 
                     <Button variant="contained" className="login-form-submit-btn" onClick={(e) => handleSubmit(e)}>Log In</Button>

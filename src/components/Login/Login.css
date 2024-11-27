@@ -1,25 +1,32 @@
 .login-form-main{
     width: 100%;
     height: 100vh;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.599);
 }
 
 .login-form-login-div{
     margin: 0 auto !important;
+    
     -ms-transform: translateY(10%);
      transform: translateY(10%);
-     box-shadow: 5px 15px 40px rgb(236, 235, 235);
+     border: 1px solid white;
      width: 40%;
      padding: 40px !important;  
+     color: aliceblue;
+     background-color: rgb(0, 12, 9);
      /* padding-bottom: 20px !important; */
      /* margin-top: % !important; */
     
 }
 
 .login-form-input-fields{
-    margin-top: 20px !important;
-    width: 60%;
+    margin-top: 10px !important;
+    width: 50%;
     font-size: 30px !important;
-
+color: rgb(255, 255, 255);
+background-color: black;
+border: 1px solid white !important; 
 }
 
 
@@ -31,8 +38,8 @@
     width: 200px;
     height: auto;
     padding: 5px;
-    background-color: #1f5156 !important;
-    border-radius: 35px !important;
+    background-color: #000000 !important;
+    border:white 1px solid !important;
     font-size: 20px !important;
 }
 .design{
@@ -42,9 +49,9 @@
 .google, .facebook{
     margin-top: 30px !important;
 
-    background-color: #fff !important;
-    border:black 1px solid !important;
-    color: rgb(95, 95, 95) !important;
+    background-color: #000000 !important;
+    border:white 1px solid !important;
+    color: rgb(255, 255, 255) !important;
     font-size: 15px !important;
     width: 200px!important;
     height: auto !important;
@@ -82,3 +89,19 @@
 
 
   /* login FORM END */
+
+
+  /* For the input text */
+.MuiInputBase-input {
+    color: white !important;
+}
+
+/* For the label text */
+.MuiInputLabel-root {
+    color: white !important;
+}
+
+/* Optional: Placeholder text color */
+.MuiInputBase-input::placeholder {
+    color: white !important;
+}

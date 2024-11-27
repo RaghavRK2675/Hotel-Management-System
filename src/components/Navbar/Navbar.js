@@ -36,7 +36,7 @@ function Navbar() {
             <nav className="navbar">
                 <div className="nav-container">
                     <NavLink exact to="/" className="nav-logo">
-                        SNG Hotels
+                        RoomScape
                         {/* <i className="fas fa-code"></i> */}
                     </NavLink>
 
@@ -63,17 +63,7 @@ function Navbar() {
                                 About
                             </NavLink>
                         </li>
-                        <li className="nav-item">
-                            <NavLink
-                                exact
-                                to="/rooms"
-                                activeClassName="active"
-                                className="nav-links"
-                                onClick={handleClick}
-                            >
-                                Rooms
-                            </NavLink>
-                        </li>
+                        
                         <li className="nav-item">
                             <NavLink
                                 exact
